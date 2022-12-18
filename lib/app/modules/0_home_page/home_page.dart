@@ -107,7 +107,7 @@ class HomePageBody extends StatelessWidget {
           child: Box(
             text: "Çıkış",
             iconName: Icons.exit_to_app,
-            navigate: SystemNavigator.pop(animated: true),
+            //navigate: SystemNavigator.pop(animated: true),
           ),
         )
       ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 
 const blackBackgroundColor = Color(0xff1C1C1E);
@@ -157,4 +158,4 @@ final _DummySirketList = [
   "Goldner, Sauer and Dibbert",
   "Aufderhar, Hegmann and Towne",
 ];
-final DummySirketList = _DummySirketList;
+final DummySirketList = _DummySirketList.obs;
